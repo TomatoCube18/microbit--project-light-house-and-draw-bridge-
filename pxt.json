@@ -1,0 +1,23 @@
+{
+    "name": "Microbit ( Project: Light House and Draw Bridge )",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "DrawBridge-Motor": "github:tomatocube18/pxt-drawbridge-motor#094adfc17045d4fbbfdcc586afb005d13390b936",
+        "Buoy-IR-Receiver": "github:tomatocube18/pxt-buoy-ir-receiver#de8b2cf4cfef6c6977f7ad63cf2b54c3a31fae64"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
